@@ -14,12 +14,12 @@ from Mickey import MickeyBot
 from Mickey.modules.helpers import CHATBOT_ON, is_admins
 
 
-@MickeyBot.on_cmd("chatbot", group_only=True)
+@dairymilk.on_cmd("bsdk", group_only=True)
 @adminsOnly("can_delete_messages")
 async def chaton_(_, m: Message):
     await m.reply_text(
         f"ᴄʜᴀᴛ: {m.chat.title}\n**ᴄʜᴏᴏsᴇ ᴀɴ ᴏᴩᴛɪᴏɴ ᴛᴏ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ ᴄʜᴀᴛʙᴏᴛ.**",
-        reply_markup=InlineKeyboardMarkup(CHATBOT_ON),
+        reply_markup=InlineKeyboardMarkup(MUJHE ACTIVE KRO_ON),
     )
     return
 
