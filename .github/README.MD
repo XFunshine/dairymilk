@@ -2,7 +2,7 @@
     ──「 𝙳𝙰𝙸𝚁𝚈-𝙼𝙸𝙻𝙺 」──
 </h2>
 <p align="center">
-  <img src="https://te.legra.ph/file/2ffb5248092481b85e04a.jpg">
+  <img src="https://graph.org/file/37caea1a9585f349b0a99.jpg">
 </p>
 
 <h3 align="center">
