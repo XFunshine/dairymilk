@@ -14,7 +14,7 @@ from Mickey.modules.helpers import (
     BACK,
     CHATBOT_BACK,
     CHATBOT_READ,
-    DEV_OP,
+   𝐑𝐨𝐛𝐢𝐧_OP,
     HELP_BTN,
     HELP_READ,
     MUSIC_BACK_BTN,
@@ -77,7 +77,7 @@ async def cb_handler(_, query: CallbackQuery):
             text=HELP_READ,
             reply_markup=InlineKeyboardMarkup(HELP_BTN),
         )
-    elif query.data == "addchat":
+    elif query.data == "𝚜𝚎𝚎 𝚖𝚢 𝚖𝚊𝚐𝚒𝚌":
         user_id = query.from_user.id
         user_status = (await query.message.chat.get_member(user_id)).status
         if user_status not in [CMS.OWNER, CMS.ADMINISTRATOR]:
@@ -111,4 +111,4 @@ async def cb_handler(_, query: CallbackQuery):
                     f"**ᴄʜᴀᴛ-ʙᴏᴛ ᴅɪsᴀʙʟᴇᴅ ʙʏ** {query.from_user.mention}."
                 )
             if is_vick:
-                await query.edit_message_text("**ᴄʜᴀᴛ-ʙᴏᴛ ᴀʟʀᴇᴀᴅʏ ᴅɪsᴀʙʟᴇᴅ.**")
+                await query.edit_message_text("**𝚖𝚎 𝚓𝚊 𝚛𝚑𝚊 𝚜𝚘𝚗𝚎.**")
